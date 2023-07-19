@@ -14,7 +14,7 @@ RSpec.describe Passenger do
   end
 
   describe '#attributes' do
-    it ' has readable attributes' do
+    it 'has readable attributes' do
       expect(@charlie.name).to eq("Charlie")
       expect(@charlie.age).to eq(18)
       
